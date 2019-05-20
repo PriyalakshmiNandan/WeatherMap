@@ -159,6 +159,7 @@ public class ParseJSONResponse {
                                 break;
                         }
                     }
+                }
                     if (cloudy == true && rainy == true && clear == false && snow == false)
                         System.out.println("RAINY");
                     else if (cloudy == true && clear == true && rainy == false && snow == false)
@@ -167,7 +168,6 @@ public class ParseJSONResponse {
                         System.out.println("CLEAR");
                     else if (snow == true && cloudy == false && rainy == false && clear == false)
                         System.out.println("SNOWY");
-                }
             }
         }
     }
