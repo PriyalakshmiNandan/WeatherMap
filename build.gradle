@@ -24,6 +24,11 @@ dependencies {
 sourceSets {
     test.java.srcDir 'src/test/java'
         }
+test
+        {
+            testLogging.showStandardStreams=true
+            systemProperties System.getProperties()
+        }
     
 
 

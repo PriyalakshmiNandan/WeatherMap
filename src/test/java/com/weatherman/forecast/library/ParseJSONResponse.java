@@ -160,13 +160,13 @@ public class ParseJSONResponse {
                         }
                     }
                 }
-                    if (cloudy == true && rainy == true && clear == false && snow == false)
+                    if (cloudy == true && rainy == true)
                         System.out.println("RAINY");
-                    else if (cloudy == true && clear == true && rainy == false && snow == false)
+                    else if (cloudy == true && clear == true )
                         System.out.println("CLOUDY");
-                    else if (clear == true && cloudy == false && rainy == false && snow == false)
+                    else if (clear == true )
                         System.out.println("CLEAR");
-                    else if (snow == true && cloudy == false && rainy == false && clear == false)
+                    else if (snow == true)
                         System.out.println("SNOWY");
             }
         }
