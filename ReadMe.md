@@ -5,4 +5,4 @@ by running the .Feature file will list down the Temperature & climate details ba
 from Weather-API response
 
 Or it can be run from Command prompt with command line arguments
-gradle test -DsystemProp.city="<CITYVALUE>" -DsystemProp.country="<COUNTRYVALUE>"
+gradle test -DsystemProp.city="{CITYVALUE}" -DsystemProp.country="{COUNTRYVALUE}"
